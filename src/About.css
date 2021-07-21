@@ -1,0 +1,26 @@
+.gone, .visible {
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+.about {
+    width: calc(60px * 4);
+}
+.gone {
+    visibility: collapse;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    background-size: cover;
+}
+
+.person-name {
+    margin-left: 20px;
+}
